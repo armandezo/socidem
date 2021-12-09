@@ -1,0 +1,240 @@
+http://localhost/socidem/controller/dashboard/crearPagoCita.controlador.php
+
+
+
+?collection_id=1234321592
+&amp;collection_status=pending
+&amp;payment_id=1234321592
+&amp;status=pending
+&amp;external_reference=null
+&amp;payment_type=atm
+&amp;merchant_order_id=2381779963
+&amp;preference_id=314858826-a98e1b51-c8b8-4938-840a-06fce2fe11d3
+&amp;site_id=MPE
+&amp;processing_mode=aggregator
+&amp;merchant_account_id=null" 
+ 
+
+
+
+ {
+    "additional_info":{
+        "available_balance":null,
+        "ip_address":"190.237.23.42",
+        "nsu_processadora":null
+    },
+    "authorization_code":null,
+    "binary_mode":false,
+    "brand_id":null,
+    "call_for_authorize_id":null,
+    "captured":true,
+    "card":{
+        
+    },
+    "charges_details":[
+        
+    ],
+    "collector_id":314858826,
+    "corporation_id":null,
+    "counter_currency":null,
+    "coupon_amount":0,
+    "currency_id":"PEN",
+    "date_approved":null,
+    "date_created":"2021-03-01T16:16:29.712-04:00",
+    "date_last_updated":"2021-03-01T16:16:29.712-04:00",
+    "date_of_expiration":"2021-03-08T16:16:31.536-04:00",
+    "deduction_schema":null,
+    "description":"Agenda de Cita",
+    "differential_pricing_id":null,
+    "external_reference":null,
+    "fee_details":[
+        
+    ],
+    "id":1234321592,
+    "installments":1,
+    "integrator_id":null,
+    "issuer_id":null,
+    "live_mode":false,
+    "marketplace_owner":null,
+    "merchant_account_id":null,
+    "merchant_number":null,
+    "metadata":{
+        
+    },
+    "money_release_date":null,
+    "money_release_schema":null,
+    "notification_url":null,
+    "operation_type":"regular_payment",
+    "order":{
+        "id":"2381779963",
+        "type":"mercadopago"
+    },
+    "payer":{
+        "first_name":"Test",
+        "last_name":"Test",
+        "email":"test_user_80507629@testuser.com",
+        "identification":{
+            "number":"32659430",
+            "type":"DNI"
+        },
+        "phone":{
+            "area_code":"01",
+            "number":"1111-1111",
+            "extension":""
+        },
+        "type":"registered",
+        "entity_type":null,
+        "id":"714523481"
+    },
+    "payment_method_id":"pagoefectivo_atm",
+    "payment_type_id":"atm",
+    "platform_id":null,
+    "point_of_interaction":{
+        
+    },
+    "pos_id":null,
+    "processing_mode":"aggregator",
+    "refunds":[
+        
+    ],
+    "shipping_amount":0,
+    "sponsor_id":null,
+    "statement_descriptor":null,
+    "status":"pending",
+    "status_detail":"pending_waiting_payment",
+    "store_id":null,
+    "taxes_amount":0,
+    "transaction_amount":150,
+    "transaction_amount_refunded":0,
+    "transaction_details":{
+        "acquirer_reference":null,
+        "external_resource_url":"https://www.mercadopago.com/mpe/payments/sandbox/atm/helper?payment_id=1234321592&payment_method_reference_id=6001741669&caller_id=714523481&hash=35936773-bb27-48f2-8faa-6bbaf52fd51d",
+        "financial_institution":"PagoEfectivo",
+        "installment_amount":0,
+        "net_received_amount":0,
+        "overpaid_amount":0,
+        "payable_deferral_period":null,
+        "payment_method_reference_id":"123466466",
+        "total_paid_amount":150,
+        "verification_code":"6001741669"
+    }
+}
+
+
+
+ {
+     :{
+        "id":1,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 1",
+        "startDate":"01/03/2021",
+        "customClass":"blueClass",
+        "title":"07:00 Am",
+        "url":"index.html",
+        "estado":"agendado",
+        "tipo":"online",
+        "precio":152
+    },
+    "1":{
+        "id":2,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 2",
+        "startDate":"02/03/2021",
+        "customClass":"blueClass",
+        "title":"07:30 Am",
+        "url":"index.html",
+        "estado":"pendiente",
+        "tipo":"presencial",
+        "precio":242
+    },
+    "2":{
+        "id":3,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 3",
+        "startDate":"01/03/2021",
+        "customClass":"blueClass",
+        "title":"08:00 Am",
+        "url":"index.html",
+        "estado":"agendado",
+        "tipo":"online",
+        "precio":152
+    },
+    "estado":"pendiente"
+}
+
+
+
+
+[
+    {
+        "id":1,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 1",
+        "startDate":"01/03/2021",
+        "customClass":"blueClass",
+        "title":"07:00 Am",
+        "url":"index.html",
+        "estado":"agendado",
+        "tipo":"online",
+        "precio":152
+    },{
+        "id":2,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 2",
+        "startDate":"02/03/2021",
+        "customClass":"blueClass",
+        "title":"07:30 Am",
+        "url":"index.html",
+        "estado":"pendiente",
+        "tipo":"presencial",
+        "precio":242
+    },{
+        "id":3,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"Atención Ultrasonido 3",
+        "startDate":"01/03/2021",
+        "customClass":"blueClass",
+        "title":"08:00 Am",
+        "url":"index.html",
+        "estado":"agendado",
+        "tipo":"online",
+        "precio":152
+    }
+]
+
+
+    <!-- <a href='javascript:' onclick='modalCred(&apos;$cod_consulta&apos;)' class='btn btn-sm bg-warning-light'>
+    <i class= 'fa fa-lock'></i> Ver Password </a> <br><br>
+    <a href='javascript:void(0);' onclick='modalConfirm(&apos;$cod_consulta&apos;)' class='btn btn-sm bg-danger-light'>
+    <i class='fas fa-check'></i> Cerrar Cita </a> -->
+    <!-- <tr>
+    <td>
+    <h2 class="table-avatar">
+
+    Richard Wilson
+
+    </h2>
+    </td>
+    <td>11 Nov 2019 <span class="d-block text-info">10.00
+    AM</span></td>
+    <td>General</td>
+    <td>New Patient</td>
+    <td class="text-center">$150</td>
+    <td class="text-right">
+    <div class="table-action">
+    <a href="javascript:void(0);"
+    class="btn btn-sm bg-info-light">
+    <i class="far fa-eye"></i> View
+    </a>
+
+    <a href="javascript:void(0);"
+    class="btn btn-sm bg-success-light">
+    <i class="fas fa-check"></i> Accept
+    </a>
+    <a href="javascript:void(0);"
+    class="btn btn-sm bg-danger-light">
+    <i class="fas fa-times"></i> Cancel
+    </a>
+    </div>
+    </td>
+    </tr> -->

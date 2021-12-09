@@ -1,0 +1,180 @@
+[
+    {
+        "id":1,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"07:00 Am",
+        "startDate":"28/02/2021",
+        "customClass":"blueClass",
+        "title":"07:00 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"online",
+        "precio":210
+    },
+    {
+        "id":2,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"07:30 Am",
+        "startDate":"02/03/2021",
+        "customClass":"blueClass",
+        "title":"07:30 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"presencial",
+        "precio":420
+    },
+    {
+        "id":3,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"08:00 Am",
+        "startDate":"03/03/2021",
+        "customClass":"blueClass",
+        "title":"08:00 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"presencial",
+        "precio":420
+    },
+    {
+        "id":4,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"08:30 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"08:30 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"presencial",
+        "precio":210
+    },
+    {
+        "id":5,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"09:00 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"09:00 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"online",
+        "precio":210
+    },
+    {
+        "id":6,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"09:30 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"09:30 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"online",
+        "precio":210
+    },
+    {
+        "id":7,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"10:00 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"10:00 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"presencial",
+        "precio":210
+    },
+    {
+        "id":8,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"11:00 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"11:00 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"online",
+        "precio":210
+    },
+    {
+        "id":9,
+        "token":"e37324a7bd39264d5f997c3ccd5fc1e0",
+        "name":"11:30 Am",
+        "startDate":"04/03/2021",
+        "customClass":"blueClass",
+        "title":"11:30 Am",
+        "url":"index.html",
+        "estado":"libre",
+        "tipo":"online",
+        "precio":210
+    }
+]
+
+[
+
+    {
+        "id":1,
+        "fecha":"04/03/2021",
+        "analisis": [
+            {
+                id: "1",
+                pictures: "1.jpg"
+
+            },
+            {
+                id: "2",
+                pictures: "2.jpg"
+
+            },
+            {
+                id: "3",
+                pictures: "3.jpg"
+
+            } ],
+    },
+    {
+        "id":2,
+        "fecha":"05/03/2021",
+        "analisis": 
+           [ {
+                id: "1",
+                pictures: "1.jpg"
+
+            },
+            {
+                id: "2",
+                pictures: "2.jpg"
+
+            },
+            {
+                id: "3",
+                pictures: "3.jpg"
+
+            }   ],
+    }
+]
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    user-select: none;
+    margin-bottom: 10px;
+    background-color: #eef4fd;
+    color: #1662c6;
+    border-color: transparent;
+    font-weight: 500;
+    height: 30px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0 12px;
+    padding-bottom: 27px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;

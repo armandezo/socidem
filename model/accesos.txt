@@ -1,0 +1,9 @@
+paciente@gmail.com
+clave : paciente
+medico@gmail.com
+clave : medico
+
+http://localhost/
+credenciales ADMIN
+master
+admin

@@ -1,0 +1,50 @@
+ .clearfix:before,
+ .clearfix:after {
+     content: "";
+     display: table;
+ }
+ 
+ .clearfix:after {
+     clear: both;
+ }
+ 
+ .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ 
+ .icon-edit {
+     height: 16px;
+     width: 16px;
+     display: inline-block;
+     background: url('./img/icon-edit.png');
+     opacity: 0.5;
+ }
+ 
+ .avatar-container {
+     float: left;
+ }
+ 
+ #avatar {
+     width: 100px;
+     margin-left: 15px;
+ }
+ 
+ .edit-avatar {
+     float: right;
+     margin: -1px 0 0 -38px;
+     position: relative;
+     padding: 4px 6px !important;
+ }
+ 
+ .edit-header {
+     float: right;
+     padding: 7px 9px !important;
+     margin: -1px;
+ }
+ 
+ .edit-bg {
+     float: right;
+ }

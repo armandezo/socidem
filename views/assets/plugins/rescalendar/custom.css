@@ -1,0 +1,323 @@
+    .day_cell {
+        padding-left: 13px;
+        /* padding-right: 39px; */
+        padding-right: 1px;
+    }
+    
+    .wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .greenClass {
+        background: green;
+    }
+    
+    .rescalendar {
+        max-width: 1000px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    
+    .blueClass {
+        background-color: #eef4fd;
+        color: #1662c6;
+        user-select: none;
+        /* width: 134px; */
+        padding-top: 1px;
+    }
+    
+    .firstColumn {
+        display: none;
+    }
+    
+    .rescalendar_day_cells {
+        font-weight: 600;
+        color: #15558d;
+    }
+    
+    .rescalendar_day_cells td.middleDay {
+        border: 1px solid blue;
+    }
+    
+    .rescalendar_day_cells td.hoy_ {
+        background: #15558d;
+        color: #ffffff;
+        font-weight: 600;
+    }
+    
+    .rescalendar_day_cells td:hover {
+        background: #eef4fd;
+        cursor: pointer;
+        color: #316594;
+        font-weight: 600;
+    }
+    
+    .rescalendar_day_cells td.middleDay {
+        border: 1px solid rgb(0 0 0 / 23%);
+    }
+    
+    .rescalendar_day_cells td.middleDay {
+        border: 1px solid rgb(0 0 0 / 23%);
+    }
+    
+    .dp-calendar .dp-carousel .dp-carousel-nav:hover:not([disabled]) {
+        background-color: #dfeafb;
+    }
+    
+    .dp-calendar .dp-carousel .dp-carousel-nav.dp-carousel-nav-next {
+        right: 0;
+    }
+    
+    .dp-calendar .dp-carousel .dp-carousel-nav {
+        background-color: #eef4fd;
+        top: 0;
+        transform: none;
+    }
+    
+    .circle {
+        align-items: center;
+        border: 0;
+        border-radius: 50%;
+        display: inline-flex;
+        font-size: 1rem;
+        height: 32px;
+        justify-content: center;
+        padding: 0;
+        width: 32px;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .dp-calendar .dp-carousel .dp-carousel-nav .svg-icon {
+        fill: #3d83df;
+    }
+    
+    .circle .svg-icon {
+        height: 50%;
+        width: 50%;
+    }
+    
+    i.svg-icon.svg-icon svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .svg-icon svg {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    
+    .dp-calendar.dp-calendar-calm-light .dp-carousel-nav:hover:not([disabled]) {
+        background-color: #e9e4f6;
+    }
+    
+    tbody {
+        display: block;
+        max-height: 253px;
+        overflow-y: scroll;
+    }
+    
+    thead,
+    tbody tr {
+        display: inline-table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    .rescalendar td a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 600;
+        padding-top: 11px;
+        padding-bottom: 7px;
+        margin-top: 5px;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.1);
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4);
+    }
+    
+     ::-webkit-scrollbar-thumb:active {
+        background: rgba(0, 0, 0, .9);
+    }
+    
+    .rescalendar_day_cells span {
+        display: table-row-group;
+        padding: 0 2px 0px;
+        font-size: 13px;
+        width: 22px;
+    }
+    
+    .rescalendar_controls {
+        margin-left: 65px;
+        padding: 0;
+        position: absolute;
+    }
+    
+    .move_to_yesterday {
+        position: relative;
+        left: -104px;
+        top: 6px;
+    }
+    
+    .move_to_tomorrow {
+        position: relative;
+        left: 314px;
+        top: 6px;
+    }
+    
+    .rescalendar_day_cells td {
+        width: auto;
+        border-radius: 0px;
+        background: #eeeeee;
+        border: 1px solid rgb(0 0 0 / 23%);
+    }
+    
+    .data_cell {
+        text-align: center;
+    }
+    
+    .no_data {
+        cursor: not-allowed!important;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #15558d!important;
+        font-weight: 600;
+        padding-top: 11px;
+        background: white!important;
+    }
+    
+    .no_data_new {
+        cursor: pointer!important;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #15558d!important;
+        font-weight: 600;
+        padding-top: 11px;
+        background: white!important;
+    }
+    
+    .no_data_new_dash_med {
+        cursor: unset!important;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #15558d!important;
+        font-weight: 600;
+        padding-top: 11px;
+        background: white!important;
+    }
+    
+    .reservado {
+        text-decoration: line-through;
+        background: #a0a0a0!important;
+        cursor: not-allowed;
+        color: #a0a0a0;
+    }
+    
+    .disabled_class {
+        cursor: not-allowed;
+        color: #dedede!important;
+    }
+    
+    .disabled_class_med {
+        background: #a0a0a0!important;
+    }
+    
+    .list_ubica {
+        position: absolute;
+        bottom: 76px;
+        left: 30px;
+    }
+    
+    .direccion_class {
+        position: absolute;
+        left: 31px;
+        bottom: 32px;
+    }
+    
+    .content_class {
+        position: absolute;
+        left: 35px;
+        bottom: 39px;
+    }
+    
+    .bg_tipo_online {
+        background-color: #ffffff!important;
+        background: white!important;
+    }
+    
+    .bg_tipo_online:hover a {
+        background-color: #008292;
+        color: #ffffff!important;
+        border-color: #008292!important;
+    }
+    
+    .bg_tipo_online a {
+        border-radius: 17px;
+        background-color: #ffffff;
+        color: #008292!important;
+        border-color: #008292!important;
+        border: solid 3px!important;
+    }
+    
+    .bg_tipo_reservado {
+        background-color: #ffffff!important;
+        background: white!important;
+    }
+    
+    .bg_tipo_reservado:hover a {
+        background-color: #ff7C00;
+        color: #ffffff!important;
+        border-color: #ff7C00!important;
+    }
+    
+    .bg_tipo_reservado a {
+        border-radius: 17px;
+        background-color: #ffffff;
+        color: #ff7C00!important;
+        border-color: #ff7C00!important;
+        border: solid 3px!important;
+    }
+    
+    .reservado a {
+        background-color: white;
+        color: #a0a0a0!important;
+        border-color: #808080!important;
+    }
+    
+    .reservado:hover a {
+        background-color: #a0a0a0;
+        color: #ffffff!important;
+        border-color: #a0a0a0!important;
+    }

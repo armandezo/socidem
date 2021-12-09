@@ -1,0 +1,1 @@
+<script src="views/assets/js/scripts/citas.js"></script>

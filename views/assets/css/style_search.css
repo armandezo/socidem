@@ -1,0 +1,35 @@
+<style>.range_slider {
+    width: 100%;
+}
+
+.precio_left {
+    float: left;
+}
+
+.precio_right {
+    float: right;
+}
+
+.jplist-slider {
+    width: 100% !important;
+    background: #23c3d48c !important;
+    margin-bottom: 5px !important;
+}
+
+.jplist-slider-holder-1 {
+    background: #23c3d4 !important;
+}
+
+.jplist-slider-holder-2 {
+    background: #23c3d4 !important;
+}
+
+.jplist-slider-range {
+    background: #fff !important;
+}
+
+.jplist-slider::before {
+    background: #23c3d4 !important;
+}
+
+</style>
